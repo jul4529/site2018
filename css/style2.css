@@ -1,0 +1,67 @@
+html {
+	background: linear-gradient(to top right, #f9f996, #f55b77);
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: flex-start;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style:none;
+	color: black;
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('poppins-bold-webfont.woff2') format('woff2'),
+         url('poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('poppins-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('montserrat-light-webfont.woff2') format('woff2'),
+         url('montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+	font-family: 'montserratlight_italic';
+	font-weight: normal;
+}
+
+#contenu {
+	font-family: 'montserratlight';
+	font-size: 1em;
+	margin: 10%;
+	width: 75%;
+	height: 75%;
+}
+
+h4 {
+	font-family: 'poppinsbold';
+	font-size: 1.2em;
+}

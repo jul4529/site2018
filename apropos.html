@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style2.css" />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <title>design graphique & multimédia</title>
+
+<!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+    </head>
+
+    <body>
+
+<div id='contenu'>    <p><h4>contact</h4>
+                        juliette.ducrocq01@gmail.com <br /> — <br /> 07.78.54.30.65<br />
+                        <br />
+                        <h4>à propos</h4>
+                        designer graphique basée à Pau. <br />
+                        <br />
+                        </p></div>
+ 
+    </body>
+</html>
